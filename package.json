@@ -1,0 +1,26 @@
+{
+  "name": "ipld-hello-world",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "IPLD hello world",
+  "main": "ipld-hello-world.js",
+  "author": "@dstanesc",
+  "license": "MIT",
+  "dependencies": {
+    "@ipld/car": "^4.0.0",
+    "@ipld/dag-cbor": "^7.0.0",
+    "@ipld/dag-json": "^8.0.1",
+    "multiformats": "^9.4.3",
+    "ipld-schema": "2.0.2",
+    "ipld-schema-validator": "^0.1.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "rimraf": "3.0.2",
+    "standard": "^17.0.0",
+    "typescript": "^4.3.5"
+  },
+  "scripts": {
+    "clean": "rimraf package-lock.json node_modules assembly.car"
+  }
+}
